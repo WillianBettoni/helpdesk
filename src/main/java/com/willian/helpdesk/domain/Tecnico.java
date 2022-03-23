@@ -18,12 +18,12 @@ public class Tecnico extends Pessoa {
 
 	public Tecnico() {
 		super();
-		addPerfil(Perfil.TECNICO);
+		addPerfil(Perfil.CLIENTE);
 	}
 
 	public Tecnico(Integer id, String nome, String cpf, String senha, String email) {
 		super(id, nome, cpf, senha, email);
-		addPerfil(Perfil.TECNICO);
+		addPerfil(Perfil.CLIENTE);
 	}
 
 	public List<Chamado> getChamados() {
